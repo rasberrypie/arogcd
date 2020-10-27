@@ -140,7 +140,7 @@ spec:
               </head>
               <body>
               <h1>Hello there!</h1>
-              <p>If you see this page, that means things are working again:).</p>" > /webdata/index.html',
+              <p>If you see this page, that means things are working :).</p>" > /webdata/index.html',
             ]
       containers:
         - image: nginx
