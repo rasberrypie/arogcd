@@ -63,7 +63,7 @@ spec:
               </head>
               <body>
               <h1>Hello there again!</h1>
-              <p>If you see this page, that means aws eks is up.</p>" > /webdata/index.html',
+              <p>If you see this page, that means aws eks is up. Hello there again</p>" > /webdata/index.html',
             ]
       containers:
         - image: nginx
@@ -140,7 +140,7 @@ spec:
               </head>
               <body>
               <h1>Hello there!</h1>
-              <p>If you see this page, that means aws eks is up.</p>" > /webdata/index.html',
+              <p>If you see this page, that means aws eks is up. Hello there !</p>" > /webdata/index.html',
             ]
       containers:
         - image: nginx
